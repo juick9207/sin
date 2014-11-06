@@ -1,6 +1,6 @@
 function setup() {
    bg=loadImage("wuzu.jpg");
-   su=loadImage("sun.jpg")
+  
     createCanvas(1500, 1000);
 }
 
@@ -9,7 +9,7 @@ function draw() {
    background(bg);
      
    fill(255,255,0);
-   su(su,500,500);
+   ellipse(750,500,500,500);
 
 
 
