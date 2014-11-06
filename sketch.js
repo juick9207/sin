@@ -1,6 +1,6 @@
 function setup() {
    bg=loadImage("wuzu.jpg");
-  
+
     createCanvas(1500, 1000);
 }
 
@@ -12,7 +12,9 @@ function draw() {
    ellipse(750,500,500,500);
 
 
-
+   noFill();
+   stroke(225);
+   ellipse(750,500,780,780);
 
    var duration = 10000;
    var timing = (new Date()%duration)/duration;
