@@ -9,7 +9,7 @@ function draw() {
    background(bg);
      
    fill(255,255,0);
-   ellipse(750,500,500,500);
+   su(su,500,500);
 
 
 
@@ -18,7 +18,7 @@ function draw() {
    var timing = (new Date()%duration)/duration;
 
    fill(100,100,255);
-    su(750 + Math.cos(timing*2*PI)*560,
+    ellipse(750 + Math.cos(timing*2*PI)*560,
           500+Math.sin(timing*2*PI)*560,
           250,
           250);
