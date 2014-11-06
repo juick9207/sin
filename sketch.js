@@ -1,10 +1,11 @@
 function setup() {
+   bg=loadImage("wuzu.jpg");
     createCanvas(1500, 1000);
 }
 
 
 function draw() {
-   background(155);
+   background(bg);
      
    fill(255,255,0);
    ellipse(750,500,500,500);
