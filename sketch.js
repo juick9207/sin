@@ -15,6 +15,7 @@ function draw() {
    noFill();
    stroke(225);
    ellipse(750,500,780,780);
+   ellipse(750,500,1100,1100);
 
    var duration = 10000;
    var timing = (new Date()%duration)/duration;
