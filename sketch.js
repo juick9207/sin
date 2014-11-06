@@ -20,7 +20,7 @@ function draw() {
 
    var duration = 10000;
    var timing = (new Date()%duration)/duration;
-
+   strokeWeight(2);
    fill(100,100,255);
     ellipse(750 + Math.cos(timing*2*PI)*560,
           500+Math.sin(timing*2*PI)*560,
