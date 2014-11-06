@@ -36,7 +36,7 @@ function draw() {
 
    fill(196,158,0);
    ellipse(750 + Math.cos(timing*2*PI)*560 + Math.cos(timing*4*PI)*200,           // x좌표
-        500+Math.sin(timing*2*PI)*280 + Math.sin(timing*4*PI)*200,       // y좌표
+        500+Math.sin(timing*2*PI)*280 + Math.sin(timing*4*PI)*100,       // y좌표
         50,                                     // width
         50);                                        // height
 
@@ -44,7 +44,7 @@ function draw() {
 
    fill(255,150,20);
    ellipse(750 + Math.cos(timing*2*PI)*560 + Math.cos(timing*2*PI)*150,           // x좌표
-        500+Math.sin(timing*2*PI)*280 + Math.sin(timing*2*PI)*150,       // y좌표
+        500+Math.sin(timing*2*PI)*280 + Math.sin(timing*2*PI)*75,       // y좌표
         30,                                     // width
         30);    
 
