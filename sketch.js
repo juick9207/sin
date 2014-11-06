@@ -1,5 +1,6 @@
 function setup() {
    bg=loadImage("wuzu.jpg");
+   su=loadImage("sun.jpg")
     createCanvas(1500, 1000);
 }
 
@@ -17,7 +18,7 @@ function draw() {
    var timing = (new Date()%duration)/duration;
 
    fill(100,100,255);
-    ellipse(750 + Math.cos(timing*2*PI)*560,
+    su(750 + Math.cos(timing*2*PI)*560,
           500+Math.sin(timing*2*PI)*560,
           250,
           250);
